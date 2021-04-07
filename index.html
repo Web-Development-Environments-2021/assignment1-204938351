@@ -4,18 +4,6 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>Hadas</title>
 
-    <!-- <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="shortcut icon" href="favicon.png">
-    <title>emoji-picker Demo</title>
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-
-    <link href="../lib/css/emoji.css" rel="stylesheet"> -->
   </head>
 
   <body>
@@ -299,36 +287,20 @@
       <br/>
       <form
         method="post" action="mailto:noaakless@gmail.com" enctype="text/plain" name="EmailForm">
-        <!-- enctype="multipart/form-data" -->
         <div class="form">Name:</div>
         <input type="text" size="35" name="My name is " placeholder="Put your name here"><br><br>
         <div class="form">E-mail:</div>
         <input type="text" size="35" name="My E-mail is " placeholder="yourname@gmail.com"><br><br>
         <div class="form">Message:</div>
-        <div class="row justify-content-center">
-          <div class="col-7">
-            <div class="text-left">
-              <p class="lead emoji-picker-container">
-                <textarea class="form-control textarea-control" name="What I would like to tell you is " placeholder="You can tell me anything" rows="5" data-emoji-picker="true"></textarea><br><br>
-              </p>
-            </div>
+          <div class="text-left">
+            <textarea class="form" name="What I would like to tell you is " placeholder="You can tell me anything" rows="5" data-emoji-picker="true"></textarea><br><br>
           </div>
-        </div>
         <input class="button" type="submit" value="Send">
       </form>
       <br/>
       <br/>
       <br/>
-
-
     </section>
-
-
-
-
-
-
-
 
     <script>class EmojiPicker {
     constructor() {
@@ -1441,32 +1413,6 @@
       })()
     </script>
     
-
-
-
-
-
-
-
-
-
-    <!-- <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-
-    <script src="../lib/js/config.js"></script>
-    <script src="../lib/js/util.js"></script>
-    <script src="../lib/js/jquery.emojiarea.js"></script>
-    <script src="../lib/js/emoji-picker.js"></script>
-
-    <script>
-      $(function() {
-        window.emojiPicker = new EmojiPicker({
-          emojiable_selector: '[data-emojiable=true]',
-          assetsPath: '../lib/img/',
-          popupButtonClasses: 'fa fa-smile-o'
-        });
-        window.emojiPicker.discover();
-      });
-    </script> -->
 
     <script type="text/javascript">
     $(function(){

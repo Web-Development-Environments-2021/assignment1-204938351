@@ -7,8 +7,6 @@ ID: 204938351
 
 Name: Noaa Kless
 
-git user: noaakl
-
 I built a website on my mom, an inspiring woman.
 hope this site will let you know her better.
 
